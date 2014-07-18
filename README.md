@@ -3,7 +3,7 @@ bookworm
 
 JS/Jquery widget that divides html content automatically into pages based on character count, and allows user navigate the pages.
 
-created by Tyler Yasaka | web.tyleryasaka.me | web@tyleryasaka.me
+created by Tyler Yasaka | http://web.tyleryasaka.me | web@tyleryasaka.me
 
 ========
 
