@@ -1,0 +1,28 @@
+#bookworm-display{
+	width:500px;
+}
+.page {
+	padding:10px;
+	margin:10px;
+	border:1px solid #000;
+}
+.bookworm-control {
+	width:500px;
+	text-align:center;
+}
+.bookworm-control a {
+	padding:5px;
+}
+.bookworm-control button {
+	margin:5px;
+}
+
+/*-------------------------*/
+/*Don't edit css below here*/
+/*-------------------------*/
+#bookworm-content,#currentpage,#currentpart,.page {
+	display:none;
+}
+.show-page {
+	display:block;
+}
