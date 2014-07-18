@@ -3,8 +3,6 @@ bookworm
 
 JS/Jquery widget that divides html content automatically into pages based on character count, and allows user navigate the pages.
 
-created by Tyler Yasaka | http://web.tyleryasaka.me | web@tyleryasaka.me
-
 ========
 
 Reason for making this widget and advantages over other methods of displaying book-like content:
@@ -25,6 +23,8 @@ If you are familiar with HTML, CSS, and JS/Jquery, it should be pretty self-expl
 4. You must include the css styles in the "bookworm.css" file. You can either link to this file or copy and paste the styles into your own file. If you look at the styles, you will see that there are some you can edit and some you should leave alone. The styles to leave alone must be in your stylesheet somewhere in order for the widget to display properly.
 5. Include the necessary html divs. There are 3 such divs: #bookworm-display, #bookworm-control, and #bookworm-content. #bookworm-display is an empty div where the bookworm pages will show up. #bookworm-control contains all of the user controls for bookworm, and can be placed anywhere in the HTML body. #bookworm-content is an invisible div where you will place all of the HTML content to be displayed in your widget. It can be placed anywhere in the body of your HTML.
 
+And that's it! If you have any questions/improvement ideas/comments let me know.
+
 ========
 
-And that's it! If you have any questions/improvement ideas/comments let me know: web@tyleryasaka.me
+created by Tyler Yasaka | http://web.tyleryasaka.me | web@tyleryasaka.me
