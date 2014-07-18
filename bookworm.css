@@ -1,7 +1,7 @@
 #bookworm-display{
 	width:500px;
 }
-.page {
+#bookworm-display .page {
 	padding:10px;
 	margin:10px;
 	border:1px solid #000;
@@ -20,9 +20,9 @@
 /*-------------------------*/
 /*Don't edit css below here*/
 /*-------------------------*/
-#bookworm-content,#currentpage,#currentpart,.page {
+#bookworm-content,#currentpage,#currentpart,#bookworm-display .page {
 	display:none;
 }
-.show-page {
+#bookworm-display .show-page {
 	display:block;
 }
