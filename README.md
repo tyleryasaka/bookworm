@@ -3,6 +3,8 @@ bookworm
 
 JS/Jquery widget that divides html content automatically into pages based on character count, and allows user navigate the pages.
 
+See an example here: http://web.tyleryasaka.me/bookworm
+
 ========
 
 Reason for making this widget and advantages over other methods of displaying book-like content:
