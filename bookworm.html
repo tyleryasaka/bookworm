@@ -1,0 +1,167 @@
+<html>
+<head>
+	<!--Javascript variables for developer to set-->
+	<script>
+		/*Charaters to be allowed on one page*/
+		var pagelimit = 1000;
+		
+		/*A unique id for the content on this page.
+		To distinguish it from other pages you have that might use bookworm.
+		(This is for the "save my spot" functionality and will be part of the cookie name.)*/
+		var chapter = 'chapter1-dawn';
+	</script>
+	
+	<!--Jquery - you need to have this included above your call to the bookworm.js file.-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<!--bookworm.js file - provides the widget's functionality.
+	Don't bother messing with it unless you know what you're doing-->
+	<script src="bookworm.js"></script>
+	
+	<!--link to the css for this widget.
+	You can copy and paste the styles into your own sheet, but make sure to include them somewhere.
+	Otherwise the widget won't display correctly. You can of course edit the style to your liking.-->
+	<link type="text/css" rel="stylesheet" href="bookworm.css">
+</head>
+<body>
+	<h1>Bookworm</h1>
+	<h5>JS Widget by Tyler Yasaka</h5>
+	<p>A story I wrote, included here for demonstration:</p>
+	
+	<!--This div is empty, but don't delete it!
+	The bookworm content will be displayed in here.
+	You may of course place this div anywhere in your html that you want the bookworm page to appear.-->
+	<div id="bookworm-display"></div>
+	
+	<!--These are the user controls. This can be moved anywhere on the page.-->
+	<div class="bookworm-control">
+		<div class="counter"></div>
+		<button onclick="prevPage()">Previous</button><button onclick="nextPage()">Next</button>
+		<div class="pagejump">Jump to page: <select></select></div>
+		<button onclick="createBookmark()">Save my spot</button>
+	</div>
+	
+		<!-- this is the div in which you'll place your bookworm content. 
+		t's an invisible div (the content gets moved to the "bookworm" div for display).
+		So you can put it anywhere in the body of your page.-->
+		<div id="bookworm-content">
+<h2>Dawn</h2>
+<p>Folding back the curtain, the little girl looked out the window
+with longing. She was not looking at anything in particular, for
+there was nothing to look at. All she could see were shadows
+scattered in an endless black sea. She sighed ever so slightly,
+gently disturbing the innocent silence of the morning. For though she
+could not see, she was well aware of what lay beyond the shadows, on
+the other side of the dark ocean. Though she could not see, she could
+hear its silent calling of her name.</p>
+<p>The girl took a sudden glance behind her, as if afraid that her
+thoughts might have been heard. But there was no one. Turning back to
+the window, she realized that she had allowed the curtain to drop
+back to its position, guarding the crystal ball of adventure. But she
+did not lift it back up. Her hands would not move.</p>
+<p>Then the girl spun around and slid off the bed. A new spark was in
+her eyes. She tiptoed to the door and looked both ways, but the
+hallway was empty. As she made her way to the stairs, she began to
+notice a faint voice from below. "Tick, tock," said the voice of
+time. "Tick, tock."</p>
+<p>Rather than argue with the voice and cause a commotion that would
+surely end this adventure, the girl decided to join it. "Tip, toe,"
+went the girl's foot. "Tip, toe."</p>
+<p>Down the stairs she went, one at a time. As the voice of time grew
+louder, a new chorus emerged. A gentle percussion of patience and
+stealth echoed through the house. "Tip, tick, toe, tock. Tip, tick,
+toe, tock."</p>
+<p>Upon reaching the bottom of the stairs, the girl did not slow her
+rhythm. No, she would not let her companion down. One tip and toe and
+a time, she edged her way closer and closer to the door. "Tip,
+tick, toe, tock."</p>
+<p>Finally she reached the door. There was nowhere left to carry out
+her tips and toes! But she would not be outdone by time. No, she was
+swifter than that. Without losing a beat, tip, or toe, she turned the
+knob, stepped through the doorway, and pulled the door shut behind
+her with a forceful slam. "Tip, tick, toe, tock. Tip, tick, toe,
+tock. Tip, tick toe, tock, tip, tick, toe, tock - bang!"</p>
+<p>And then there was silence and darkness. The girl halted and took
+in a deep breath of the cool morning air. She shivered, feeling the
+coldness touch her bare arms. She wore nothing but her thin yellow
+nightgown. It was just her and the wild, face to face. She was
+afraid, but not intimidated.</p>
+<p>Then the darkness began to have color, and the shadows began to
+take shapes. The girl could now make out the trees just a hundred
+yards away, and she began to run, straight towards them. Like a
+gazelle she glided, beautiful and escaping a very present danger. She
+knew what she was running from, but she refused to think about it.
+Else the thought of it would paralyze her, and she would most
+certainly fall prey.</p>
+<p>Just as she darted into the cover of the woods, she heard a voice
+call out from behind. "Dawn! Dawn!"</p>
+<p>But she did not stop. Though the forest was dense, the girl was
+small, and also very agile. She ducked under low branches, tumbled
+over rotting logs, and pushed defiantly past the spiked bushes which
+in return ripped through her delicate skin. She cried out in pain,
+but did not stop.</p>
+<p>Finally she reached the other end of the trees. Wearily the girl
+stepped out into the open, and slowly raised her head. There,
+towering before her, was the hill. Covered in weeds, its silhouette
+stood proudly before the fading darkness of the sky.</p>
+<p>She marched straight into the grass, which rivaled her in height.
+The pods at the top of each stem exploded into puffs of little
+seedlings as she brushed past them. Nature's confetti cascaded upon
+her as she continued up the slope, celebrating her arrival at this
+most lonesome of parties.</p>
+<p>Then the slope flattened out, and the girl found herself at the
+top. But she still could not see past the tall stalks of grass. Was
+this it? Had she come all this way only to be outdone by some weeds?
+No, the girl would not give up just yet. She spotted an especially
+large shadow to her right, and made her way towards it. It was a
+rock - smooth, silver, and tall. At the top there was a flat spot,
+perfect for sitting on. The top, however, was twice as high as the
+girl.</p>
+<p>The girl looked up at the rock, and the rock glanced scornfully
+back down at her. But she had not been outdone by the clock or the
+thorns or the grass. She would not be outdone by the rock. She took a
+run and a leap, and clasped onto a crevice near the top of the rock.
+There she dangled for a moment - a bleeding 5-year-old girl in a torn
+yellow nightgown, hanging by a single finger onto a rock at the top
+of a hill. So close was she, that anyone else would have been
+satisfied and let go. But she was not anyone else.</p>
+<p>With a cry, she reached up with her other hand and grabbed the top
+edge of the rock. Then she let go of her grip on the crevice and
+grabbed the top edge with both hands. From that position she pulled
+herself up onto the rock and slid her feet out in front of her. She
+was sitting on top of the rock, and, as far as she was concerned, on
+top of the world.</p>
+<p>Before her rested a beautiful scene. A deep blue river slithered
+its way between many evergreen hills down below while the silhouettes
+of hawks patrolled the horizon. And slowly the horizon began to
+undergo a transformation, fading from the dark blue of the night into
+the fiery red of the morning. The red became orange, the hawks flew
+to the wayside, and then - then it happened. A yellow circle peeked
+over the horizon, and suddenly the valley burst into blue and green
+and the sky into a paler blue. Yellow daggers emanated from the
+circle and slayed the agents of the night once and for all. Even the
+girl recoiled at their piercing thrust. Finally, she knew who she
+was. She knew what this was. It was Dawn.</p>
+<p>"Dawn! Dawn!"</p>
+<p>The girl spun around in horror. "Get down from there! You're
+crazy! What's wrong with you? Why can't you do as you're
+told?!" A shadow emerged from the trees below and charged up the
+hill towards her. It was carrying a stick.</p>
+<p>The shadow reached the rock and stopped, but the stick did not. It
+came crashing upon the girl's back before she could react, and the
+impact sent her flying off the other side of the rock. She collapsed
+onto the ground with a thud, conscious but too stunned to scream.</p>
+<p>But the stick still did not stop. It came crashing down upon her
+again. "Dawn! Bad girl! Bad, bad girl!" The stick fell upon her
+three more times.</p>
+<p>By this time, tears were streaming down her cheeks. Her arms were
+now not only covered in scratches from the thorns, but bruises from
+the stick. Covering her head with her hands to protect herself, she
+turned around and looked up with her little wide eyes at the shadow
+towering above her. "I'm sorry, Daddy," she sobbed. "I'm
+sorry."</p>
+		</div><!--closing tag for #bookworm-content-->
+		
+	</body></html>
+</body>
+</html>
