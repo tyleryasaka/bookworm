@@ -20,7 +20,7 @@
 /*-------------------------*/
 /*Don't edit css below here*/
 /*-------------------------*/
-#bookworm-content,#currentpage,#currentpart,#bookworm-display .page {
+#bookworm-content,#bookworm-currentpage,#bookworm-currentpart,#bookworm-display .page {
 	display:none;
 }
 #bookworm-display .show-page {
