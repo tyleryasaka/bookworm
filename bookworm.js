@@ -9,28 +9,28 @@ $(document).ready(function() {
 	var content = $('#bookworm-content').html();
 	var countelements = $('#bookworm-content').children().size();
 	
-	$(document.body).append('<div id="currentpart"></div>');
-	$(document.body).append('<div id="currentpage"></div>');
+	$(document.body).append('<div id="bookworm-currentpart"></div>');
+	$(document.body).append('<div id="bookworm-currentpage"></div>');
 	
 	for(i=0;i<countelements;i++) {
 		currentpartobj = $('#bookworm-content').children().eq(0);
-		$('#currentpart').html(currentpartobj);
-		currentpart=$('#currentpart').html();
-		currentpage=$('#currentpage').html();
-		currentpartlen=$('#currentpart').text().length;
+		$('#bookworm-currentpart').html(currentpartobj);
+		currentpart=$('#bookworm-currentpart').html();
+		currentpage=$('#bookworm-currentpage').html();
+		currentpartlen=$('#bookworm-currentpart').text().length;
 		
 		//If an element exceeds page limit, put on separate page
 		if(currentpartlen>pagelimit) {
 			createPage(currentpage);
 			createPage(currentpart);
 			pagecount+=2;
-			$('#currentpage').empty();
+			$('#bookworm-currentpage').empty();
 			currentpagelen=0;
 		}
 		
 		//if under page limit with part, add part to page
 		else if(currentpage.length+currentpartlen<pagelimit) {
-			$('#currentpage').append(currentpart);
+			$('#bookworm-currentpage').append(currentpart);
 			currentpagelen+=currentpartlen;
 		}
 		
@@ -38,7 +38,7 @@ $(document).ready(function() {
 		else {
 			createPage(currentpage);
 			pagecount++;
-			$('#currentpage').html(currentpart);
+			$('#bookworm-currentpage').html(currentpart);
 			currentpagelen=currentpartlen;
 		}
 	}
@@ -80,6 +80,7 @@ function jumpToPage(index) {
 	showpage=parseInt(index);
 	togglePage();
 	createPageList();
+	$("html, body").scrollTop($('#bookworm-display').offset().top);
 }
 
 function togglePage() {
