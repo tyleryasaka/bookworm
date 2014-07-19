@@ -7,11 +7,9 @@ See an example here: http://web.tyleryasaka.me/bookworm
 
 ========
 
-Reason for making this widget and advantages over other methods of displaying book-like content:
+Let's say you have a book or large amount of content you want to place on your webpage. How do you do it? Your first option is to put a big blob of html on the page. This works well enough, but people will get annoyed if they have to scroll too far. Another option is to divide your content manually into separate pages. Assuming you don't have too many pages to create, this isn't too bad. But the user will get annoyed having to wait for each new web page to load the rest of the content. As a final resort you could even put your content on a pdf file and let the user just view that instead of a webpage. This is fine I guess... But you no longer can embed the content into the rest of your awesome site, and the pdf will take a light year to download.
 
-This widget was created as an alternative way of displaying pages of content such as a book. Popular methods are to use PDF or to use html but manually divide the content into several pages, and display each page at a different url. But I didn't like either of these 2 methods. The downside to PDF is that it does not conform to your site and takes a lot of bandwidth to download. The downside to traditional html pages is that the division must be done manually, and that the user must make a new http request each time the user wants to change the page.
-
-This widget improves on these 2 methods. First of all, it is in html so it loads lightning-fast. Second, it automatically divides the html into pages based on character count. (The one downside to this is that the pages will have varying heights based on white space, but as browsers all display html differently, this is the best I could do.) Also, the user can change the page instantly, since this is a single-page-application. Finally, it includes some neat features, such a previous and next buttons, a "jump to page" button, and a "save my spot" button, which uses cookies to save the user's page number so that the user can close the webpage and not lose his spot.
+Your other option is to use my Javascript widget, bookworm. I created it as an alternative to all of the options above as a solution to one of my own projects. What bookworm does is take an arbitrarily large chunk of html and divides it into pages based on character count (you can specify this number). Then the user can navigate those pages quickly and conveniently. They even have the option to save their spot so they can close the webpage and come back to the same spot later.
 
 ========
 
